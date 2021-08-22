@@ -19,7 +19,12 @@
         echo '<h1>My age is: '.$age.'</h1>';
         // Echo using double quotes
         echo "<h1>My name is: $name</h1>";
-   
+    ?>
+    <button type="button" class="btn btn-dark">CLICK ME!</button>
+    <button type="button" class="btn btn-primary">CLICK ME!</button>
+    <button type="button" class="btn btn-success">CLICK ME!</button>
+    <a href="https://www.heroku.com" class="btn btn-danger" target="_blank">Heroku.com</a>
+    <?php
         include 'includes/footer.php';
     ?>
 
